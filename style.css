@@ -1,10 +1,20 @@
 .tafel01 {
     background-color: black;
     color: aliceblue;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    
+}
+tbody {
+    width: 5%;    
+    
 }
 
 .logo {
     width: 200px;
     height: 15  0px;
     text-align: left;
+    margin-left: 153px;
 }
