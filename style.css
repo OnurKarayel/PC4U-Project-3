@@ -1,5 +1,10 @@
 .tafel01 {
     background-color: black;
     color: aliceblue;
+}
 
+.logo {
+    width: 200px;
+    height: 15  0px;
+    text-align: left;
 }
