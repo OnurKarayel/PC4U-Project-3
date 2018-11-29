@@ -1,23 +1,33 @@
+html {
+    height: 100%;
+    font-family: sans-serif;
+}
+
 .tafel01 {
-    background-color: black;
+    background-color: #383838;
     color: aliceblue;
     width: 100%;
     font-size: 25px;  
     border-spacing: 10px;
     padding-left: 60px;
-    padding-right: 60px;
-    
+    padding-right: 60px;   
 }
 
 .logo {
-    width: 210px;
-    height: 160px;
+    width: 270px;
+    height: 180px;
     float: left;
     margin-left: -15px;
     margin-bottom: -25px;
     margin-top: -15px;
     
 }
+
+/*active link
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+*/
 
 /* a href link */
 a {
@@ -30,7 +40,49 @@ a:hover {
     color: red;
 }
 
+
 body {
-    background-image: linear-gradient(grey, blue);
+    background-image: linear-gradient(grey,#4d4dFF, blue);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#linker_menu {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+    border: 2px solid grey;
     
+}
+
+/*Categorieën*/
+.categorieen_table {
+    padding: 10px;
+    margin: 2%;
+    color: black;
+    border: 3px solid grey;
+    border-collapse: collapse;
+    background-color: white;
+    padding: 5px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.categ {
+    padding: 7px;
+    padding-right: 100px;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    background-color: grey;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.categ2 {
+    padding: 4px;
 }
