@@ -9,7 +9,7 @@ html {
     width: 100%;
     font-size: 25px;  
     border-spacing: 10px;
-    padding-left: 60px;
+    padding-left: 80px;
     padding-right: 60px;   
 }
 
@@ -26,7 +26,7 @@ html {
 /*active link
 .topnav a.active {
   border-bottom: 3px solid red;
-}
+} 
 */
 
 /* a href link */
@@ -61,7 +61,7 @@ body {
 
 /*Categorieën*/
 .categorieen_table {
-    padding: 10px;
+    padding-left: 10px;
     margin: 2%;
     color: black;
     border: 3px solid grey;
@@ -70,6 +70,7 @@ body {
     padding: 5px;
     text-align: left;
     font-size: 20px;
+    margin-left: 80px;
 }
 
 .categ {
@@ -85,4 +86,16 @@ body {
 
 .categ2 {
     padding: 4px;
+}
+
+/* Footer */
+.footer {
+    background-color: #383838;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding-left: 80px;
 }
