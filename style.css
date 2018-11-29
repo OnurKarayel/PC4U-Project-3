@@ -29,3 +29,8 @@ a {
 a:hover {
     color: red;
 }
+
+body {
+    background-image: linear-gradient(grey, blue);
+    
+}
