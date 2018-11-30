@@ -45,6 +45,7 @@ a:hover {
 body {
     background-image: linear-gradient(grey,#4d4dFF, blue);
     height: 100%;
+    width: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -91,7 +92,7 @@ body {
 
 /* Footer */
 .footer {
-    width: 100%;
+    width: 94.3%;
     background-color: #383838;
     left: 0;
     bottom: 0;
