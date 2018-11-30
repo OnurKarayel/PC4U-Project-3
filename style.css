@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    width: 100%;
     font-family: sans-serif;
 }
 
@@ -90,12 +91,43 @@ body {
 
 /* Footer */
 .footer {
+    width: 100%;
     background-color: #383838;
-    position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
     color: white;
     text-align: left;
-    padding-left: 80px;
+    padding: 5px 5px 5px 80px;
+    font-size: 12px;
+}
+
+.closing {
+    width: 100%;
+    background-color: #383838;
+    left: 0;
+    bottom: 0;
+    color: white;
+    padding: 5px 5px 5px 80px;
+    font-size: 10px;
+    display: inline;
+    text-align: center;
+    padding-left: 250px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.4em;
+    display: inline-flex;
+}
+
+li {
+    margin: 10px 30px 10px;
+}
+
+.facebook {
+    font-size: 18px;
+}
+
+.pm-logos {
+    font-size: 18px;
 }
